@@ -2,7 +2,7 @@
 
 require_once '../includes/db.php';
 
-$places_xml = simplexml_load_file('communityGardens.kml');
+$places_xml = simplexml_load_file('splashpads.kml');
 
 $sql = $db->prepare('
 	INSERT into open_data_app (name, street_address, longitude, latitude)
