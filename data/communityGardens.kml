@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <name><![CDATA[City of Ottawa Community Gardens]]></name>
+  <open>1</open>
+  <Snippet maxLines="0"><![CDATA[]]></Snippet>
+  <description><![CDATA[]]></description>
+  <Schema name="City_of_Ottawa_Community_Gardens" id="City_of_Ottawa_Community_Gardens_schema">
+    <SimpleField type="string" name="GARDEN">
+      <displayName><![CDATA[GARDEN]]></displayName>
+    </SimpleField>
+    <SimpleField type="string" name="LEGAL_ADDR">
+      <displayName><![CDATA[LEGAL_ADDR]]></displayName>
+    </SimpleField>
+  </Schema>
+  <Style id="FEATURES">
+    <IconStyle>
+      <color>FFA900E6</color>
+      <scale>1.66666666666667</scale>
+      <Icon>
+        <href>root://icons/palette-4.png</href>
+        <x>32</x>
+        <y>128</y>
+        <w>32</w>
+        <h>32</h>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <color>00FFFFFF</color>
+    </LabelStyle>
+    <BalloonStyle>
+      <text>
+<![CDATA[Garden = $[City_of_Ottawa_Community_Gardens/GARDEN]<br />
+Address = $[City_of_Ottawa_Community_Gardens/LEGAL_ADDR]<br />
+
+]]>
+      </text>
+    </BalloonStyle>
+  </Style>
+  <Style id="FEATURES_LABELS">
+    <IconStyle>
+      <color>00000000</color>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <color>FFFFFFFF</color>
+    </LabelStyle>
+  </Style>
+  <Folder>
+    <name>Features</name>
+    <open>0</open>
+       <Placemark>
+         <name><![CDATA[Bethany Church Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Bethany Church Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[382 Centrepointe Dr.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.7734388991705,45.345499587655,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Bytown Urban Gardens (BUGs) CG]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Bytown Urban Gardens (BUGs) CG]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[75 Glendale Ave.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6988143060323,45.4050394322286,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Carlington Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Carlington Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[900 Merivale Rd.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.7346269034471,45.382842490324,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Centretown Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Centretown Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[461 Lisgar St.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.7016583295769,45.415195101353,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Chateau Donald Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Chateau Donald Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[251 Donald St.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6577031103256,45.4293097723174,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Children's Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Children's Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[321 Main St.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6759578122613,45.406127619525,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Debra Dynes Family House Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Debra Dynes Family House Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[955 Debra Ave.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.7060251774863,45.3680604451643,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Friendship Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Friendship Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[1240/1244 Donald St.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6361507417946,45.4273895810549,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Gloucester Allotment Gardens]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Gloucester Allotment Gardens]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[N/A Corner of Weir and Anderson]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.5676971825545,45.420592825487,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[GO-VEG (Glebe Organic Vegetable Garden) / Corpus-Christi Children's Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[GO-VEG (Glebe Organic Vegetable Garden) / Corpus-Christi Children's Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[185 Fifth Ave.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6919950762557,45.4012929697314,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Go Green Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Go Green Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[110 Laurier Ave.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6893017438533,45.4210842738369,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Jardin Arrowsmith Thyme-Less Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Jardin Arrowsmith Thyme-Less Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[2040 Arrowsmith Drive]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.5953760439295,45.4385515707265,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Jardin Communautaire Orleans Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Jardin Communautaire Orleans Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[3350 St Joseph Blvd.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.4989466307579,45.4837565286994,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Jardin Communautaire Vanier Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Jardin Communautaire Vanier Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[300 des Peres Blancs.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.658575092874,45.4437362531784,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Kilborn Allotment Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Kilborn Allotment Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[1909/1975 Kilborn Ave.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6388368817179,45.3908440878158,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Leslie Park Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Leslie Park Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[31 Abingdon Dr.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.7878754564841,45.3341129371286,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Lowertown/Basseville Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Lowertown/Basseville Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[40 Cobourg st.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6817654861477,45.4347668377398,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Michele Heights Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Michele Heights Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[2955 Michelle Dr.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.800576543261,45.3552345931046,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Nanny Goat Hill Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Nanny Goat Hill Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[575/551 Laurier Ave. West]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.707485107864,45.4153043246147,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Nepean Allotment Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Nepean Allotment Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[230 Viewmont]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.7180421437094,45.3465105482307,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Operation Go Home Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Operation Go Home Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[179 Murray St.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6907938739199,45.4310697631841,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Ottawa East Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Ottawa East Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[249/223/175 Main St.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6755847910067,45.408059625321,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Rochester Heights Children's Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Rochester Heights Children's Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[299 Rochester St.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.708440804817,45.4045126456476,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Sandy Hill CG]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Sandy Hill CG]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[3 Hurdman Rd.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6680134788833,45.4199458444146,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Somali CG]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Somali CG]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[1975 Kilborn Ave.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.639200787966,45.3895870241171,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Strathcona Heights Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Strathcona Heights Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[3 Hurdman Rd.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.669424051288,45.4187323045188,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Sweet Willow Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Sweet Willow Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[31 Rochester St.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.7134104370893,45.4118448361988,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Van Lang CG]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Van Lang CG]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[295 Churchill Ave.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.7555660409407,45.3956959360145,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[Viscount Alexander CG]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[Viscount Alexander CG]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[55 Mann Ave.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.6747042678713,45.4202733418521,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[West Barrhaven Community Garden]]></name>
+         <Snippet maxLines="0"><![CDATA[]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#City_of_Ottawa_Community_Gardens_schema">
+             <SimpleData name="GARDEN"><![CDATA[West Barrhaven Community Garden]]></SimpleData>
+             <SimpleData name="LEGAL_ADDR"><![CDATA[3058 Jockvale Rd.]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             -75.757698621139,45.2710350131028,0
+           </coordinates>
+         </Point>
+       </Placemark>
+  </Folder>
+  <Folder>
+    <name>Feature Labels (<![CDATA[GARDEN]]>)</name>
+    <open>0</open>
+      <Placemark>
+        <name><![CDATA[Bethany Church Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.7734388991705,45.345499587655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bytown Urban Gardens (BUGs) CG]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6988143060323,45.4050394322286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Carlington Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.7346269034471,45.382842490324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Centretown Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.7016583295769,45.415195101353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chateau Donald Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6577031103256,45.4293097723174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Children's Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6759578122613,45.406127619525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Debra Dynes Family House Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.7060251774863,45.3680604451643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Friendship Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6361507417946,45.4273895810549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Gloucester Allotment Gardens]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.5676971825545,45.420592825487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[GO-VEG (Glebe Organic Vegetable Garden) / Corpus-Christi Children's Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6919950762557,45.4012929697314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Go Green Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6893017438533,45.4210842738369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jardin Arrowsmith Thyme-Less Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.5953760439295,45.4385515707265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jardin Communautaire Orleans Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.4989466307579,45.4837565286994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jardin Communautaire Vanier Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.658575092874,45.4437362531784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Kilborn Allotment Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6388368817179,45.3908440878158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Leslie Park Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.7878754564841,45.3341129371286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lowertown/Basseville Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6817654861477,45.4347668377398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Michele Heights Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.800576543261,45.3552345931046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Nanny Goat Hill Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.707485107864,45.4153043246147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Nepean Allotment Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.7180421437094,45.3465105482307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Operation Go Home Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6907938739199,45.4310697631841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ottawa East Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6755847910067,45.408059625321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Rochester Heights Children's Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.708440804817,45.4045126456476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sandy Hill CG]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6680134788833,45.4199458444146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Somali CG]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.639200787966,45.3895870241171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Strathcona Heights Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.669424051288,45.4187323045188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sweet Willow Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.7134104370893,45.4118448361988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Van Lang CG]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.7555660409407,45.3956959360145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Viscount Alexander CG]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.6747042678713,45.4202733418521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[West Barrhaven Community Garden]]></name>
+        <styleUrl>#FEATURES_LABELS</styleUrl>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>
+            -75.757698621139,45.2710350131028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+  </Folder>
+</Document>
+</kml>
