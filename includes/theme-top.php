@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Community Gardens</title>
+	<title>Splashpools</title>
     <link href="css/public.css" rel="stylesheet">
 </head>
 
