@@ -10,8 +10,8 @@ if (empty($id)) {
 require_once 'includes/db.php';
 
 $sql = $db->prepare('
-	SELECT id, name, adr, lat, lng
-	FROM open-app-data
+	SELECT id, name, longitude, latitude
+	FROM splashpool
 	WHERE id = :id
 ');
 
@@ -32,9 +32,8 @@ include 'includes/theme-top.php';
 
 <h1><?php echo $results['name']; ?></h1>
 <dl>
-	<dt>Address</dt><dd><?php echo $results['adr']; ?></dd>
-	<dt>Longitude</dt><dd><?php echo $results['lng']; ?></dd>
-	<dt>Latitude</dt><dd><?php echo $results['lat']; ?></dd>
+	<dt>Longitude</dt><dd><?php echo $results['longitude']; ?></dd>
+	<dt>Latitude</dt><dd><?php echo $results['latitude']; ?></dd>
 </dl>
 
 <?php
@@ -42,4 +41,3 @@ include 'includes/theme-top.php';
 include 'includes/theme-bottom.php';
 
 ?>
-<?php

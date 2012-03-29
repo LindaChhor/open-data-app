@@ -1,17 +1,35 @@
-<?php 
+<?php
+	require_once 'includes/db.php';
+	
+	$results = $db->query('
+	SELECT id, name, longitude, latitude
+	FROM splashpool
+	ORDER BY id ASC
+	');
+	
+	include 'includes/theme-top.php';
+
+?>
 
 
-?><!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>splashpads</title>
-    <link href="css/public.css" rel="stylesheet">
-    <script src="js/modernizr-2.0.6.js"></script>
-</head>
+<ol class="pools">
+<?php foreach ($results as $pools) : ?>
+	<li itemscope itemtype="http://schema.org/TouristAttraction">
+		<a href="single.php?id=<?php echo $pools['id']; ?>" itemprop="name"><?php echo $pools['name']; ?></a>
+		<span itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+			<meta itemprop="latitude" content="<?php echo $pools['latitude']; ?>">
+			<meta itemprop="longitude" content="<?php echo $pools['longitude']; ?>">
+		</span>
+	</li>
+<?php endforeach; ?>
+</ol>
 
-<body>
+<div id="map"></div>
 
 
-</body>
-</html>
+
+<?php
+	
+	include 'includes/theme-bottom.php';
+
+?>
